@@ -99,6 +99,70 @@
 		{
 			"ImportPath": "gopkg.in/v1/yaml",
 			"Rev": "1b9791953ba4027efaeb728c7355e542a203be5e"
+		},
+		{
+			"ImportPath": "code.google.com/p/google-api-go-client/googleapi",
+			"Comment": "release-96",
+			"Rev": "0923cdda5b82a7dd0dd5c689f824ca5e7d9b60de"
+		},
+		{
+			"ImportPath": "github.com/coreos/fleet/client",
+			"Comment": "v0.3.2-718-g58605f7",
+			"Rev": "58605f78585c4890bb6b305d602f9b230a8ef52f"
+		},
+		{
+			"ImportPath": "github.com/coreos/fleet/etcd",
+			"Comment": "v0.3.2-718-g58605f7",
+			"Rev": "58605f78585c4890bb6b305d602f9b230a8ef52f"
+		},
+		{
+			"ImportPath": "github.com/coreos/fleet/job",
+			"Comment": "v0.3.2-718-g58605f7",
+			"Rev": "58605f78585c4890bb6b305d602f9b230a8ef52f"
+		},
+		{
+			"ImportPath": "github.com/coreos/fleet/log",
+			"Comment": "v0.3.2-718-g58605f7",
+			"Rev": "58605f78585c4890bb6b305d602f9b230a8ef52f"
+		},
+		{
+			"ImportPath": "github.com/coreos/fleet/machine",
+			"Comment": "v0.3.2-718-g58605f7",
+			"Rev": "58605f78585c4890bb6b305d602f9b230a8ef52f"
+		},
+		{
+			"ImportPath": "github.com/coreos/fleet/pkg",
+			"Comment": "v0.3.2-718-g58605f7",
+			"Rev": "58605f78585c4890bb6b305d602f9b230a8ef52f"
+		},
+		{
+			"ImportPath": "github.com/coreos/fleet/registry",
+			"Comment": "v0.3.2-718-g58605f7",
+			"Rev": "58605f78585c4890bb6b305d602f9b230a8ef52f"
+		},
+		{
+			"ImportPath": "github.com/coreos/fleet/schema",
+			"Comment": "v0.3.2-718-g58605f7",
+			"Rev": "58605f78585c4890bb6b305d602f9b230a8ef52f"
+		},
+		{
+			"ImportPath": "github.com/coreos/fleet/unit",
+			"Comment": "v0.3.2-718-g58605f7",
+			"Rev": "58605f78585c4890bb6b305d602f9b230a8ef52f"
+		},
+		{
+			"ImportPath": "github.com/coreos/go-semver/semver",
+			"Rev": "6fe83ccda8fb9b7549c9ab4ba47f47858bc950aa"
+		},
+		{
+			"ImportPath": "github.com/coreos/go-systemd/unit",
+			"Comment": "v2-27-g97e243d",
+			"Rev": "97e243d21a8e232e9d8af38ba2366dfcfceebeba"
+		},
+		{
+			"ImportPath": "github.com/docker/libcontainer/netlink",
+			"Comment": "v1.2.0-9-g4080743",
+			"Rev": "4080743cbc30dce4bf46ddd0432d82ef38bb881d"
 		}
 	]
 }
