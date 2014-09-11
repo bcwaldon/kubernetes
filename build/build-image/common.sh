@@ -40,7 +40,8 @@ function kube::build::make_binary() {
 
   echo "+++ Building ${bin} for ${GOOS}/${GOARCH}"
   pushd "${KUBE_REPO_ROOT}" >/dev/null
-  godep go build -ldflags "${KUBE_LD_FLAGS-}" -o "${ARCH_TARGET}/${bin}" "${gopkg}"
+  #godep go build -ldflags "${KUBE_LD_FLAGS-}" -o "${ARCH_TARGET}/${bin}" "${gopkg}"
+  CGO_ENABLED=0 godep go build -a -tags netgo -ldflags "-w" -o "${ARCH_TARGET}/${bin}" "${gopkg}"
   popd >/dev/null
 }
 
