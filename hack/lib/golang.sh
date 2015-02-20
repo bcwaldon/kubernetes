@@ -299,7 +299,7 @@ kube::golang::build_binaries() {
               "${binary}"
         done
       else
-        go install "${goflags[@]:+${goflags[@]}}" \
+        CGO_ENABLED=0 go install "${goflags[@]:+${goflags[@]}}" -a -tags netgo \
             -ldflags "${version_ldflags}" \
             "${binaries[@]}"
       fi
